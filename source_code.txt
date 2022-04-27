@@ -1,0 +1,4 @@
+JasperPrint JP = JasperFillManager.fillReport(getClass().getResourceAsStream("reportData.jasper"),
+            null, latihanCRUD.koneksi.koneksi_database.database());
+            
+            JasperViewer.viewReport(JP);
